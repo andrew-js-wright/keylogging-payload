@@ -8,5 +8,6 @@ if [ ! -d frontail ]; then
     git clone https://github.com/andrew-js-wright/frontail.git
 fi
 cd frontail
+npm install
 sudo make startup
 cd -
