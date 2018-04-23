@@ -11,6 +11,8 @@ tail the logs of the keylogger, displaying them for all to see.
   username ALL=(ALL) NOPASSWD: ALL
   ```
 - Update the filepath in `duckyscript.txt` to the location of this directory. 
+- Run `./launch.sh`
+- Update the filepaths in `frontail/frontail.plist`
 
 ## Todo
 - Remove hardcoded file paths from the project
