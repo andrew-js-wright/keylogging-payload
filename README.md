@@ -16,3 +16,7 @@ tail the logs of the keylogger, displaying them for all to see.
 
 ## Todo
 - Remove hardcoded file paths from the project
+
+## When you're done
+DON'T FORGET TO RUN `./uninstall`
+STOP HACKING YOURSELF

@@ -8,6 +8,8 @@ if [ ! -d frontail ]; then
     git clone https://github.com/andrew-js-wright/frontail.git
 fi
 cd frontail
-npm install
+if [ ! -d node_modules ]; then
+    npm install
+fi
 sudo make startup
 cd -
